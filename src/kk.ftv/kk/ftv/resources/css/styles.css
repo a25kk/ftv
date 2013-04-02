@@ -5524,11 +5524,8 @@ table.grid th {
   clear: both;
 }
 body {
-  background: #ffffff;
+  background: #efefef;
   color: #797979;
-}
-.row-fluid {
-  border: 1px solid red;
 }
 .visualClear {
   clear: both;
@@ -5547,45 +5544,57 @@ hr {
 .selected a {
   font-size: 24px !important;
 }
-body > header {
-  background: #efefef;
+/* Custom container */
+.container-narrow {
+  margin: 0 auto;
+  max-width: 960px;
+  border: 0px solid red;
+  background: #ffffff;
 }
-body > header #header {
+.container-narrow .green {
+  background: #6ca147;
+}
+.container-narrow .light {
+  background: #bacca9;
+  border-bottom: 10px solid white;
+}
+.container-narrow #header {
   background: transparent;
   width: 960px;
   margin-top: 0px;
   border-bottom: 1px solid #797979;
   margin-bottom: 5px;
 }
-body > header #header a:hover {
+.container-narrow #header a:hover {
   text-decoration: none;
 }
-body > header #header .brand {
+.container-narrow #header .brand {
   display: block;
   margin: 0px;
-  border: 1px solid red;
-  color: #797979;
+  border: 0px solid red;
+  color: #ffffff;
   text-transform: uppercase;
-  font-size: 16.25px;
+  font-size: 32.5px;
   font-weight: normal;
+  padding: 20px !important;
 }
-body > header #header .meta {
-  border: 1px solid blue;
+.container-narrow #header .meta {
+  border: 0px solid blue;
 }
-body > header #header #nav-search {
+.container-narrow #header #nav-search {
   border: 0px solid red;
   margin-top: 36px;
 }
-body > header #header .navbar {
+.container-narrow #header .navbar {
   float: left;
   margin-bottom: 0px;
   border: 0px solid red;
   padding: 0px;
 }
-body > header #header .navbar ul {
+.container-narrow #header .navbar ul {
   margin: 0px;
 }
-body > header #header .navbar .navbar-inner {
+.container-narrow #header .navbar .navbar-inner {
   background: transparent;
   padding: 0px;
   box-shadow: none;
@@ -5595,37 +5604,67 @@ body > header #header .navbar .navbar-inner {
   -moz-border-radius: 0px;
   border-radius: 0px;
 }
-body > header #header .navbar .navbar-inner #main-nav li {
+.container-narrow #header .navbar .navbar-inner #main-nav {
+  padding: 10px;
+}
+.container-narrow #header .navbar .navbar-inner #main-nav li {
   text-align: left;
   line-height: 25px;
   display: block;
   background: url(../img/bullet.gif) no-repeat right bottom;
 }
-body > header #header .navbar .navbar-inner #main-nav li a {
-  color: #797979;
+.container-narrow #header .navbar .navbar-inner #main-nav li a {
+  color: #ffffff;
   font-weight: normal;
   text-transform: uppercase;
   font-size: 16px;
   padding: 10px 0px 10px 0px;
   text-shadow: none !important;
 }
-body > header #header .navbar .navbar-inner #main-nav li a:hover {
+.container-narrow #header .navbar .navbar-inner #main-nav li a:hover {
   background: url(../img/active.gif) no-repeat center bottom;
 }
-body > header #header .navbar .navbar-inner #main-nav li.active {
+.container-narrow #header .navbar .navbar-inner #main-nav li.active {
   background-color: #ffffff;
   width: 35px;
   height: 35px;
 }
-body > header #header .navbar .navbar-inner #main-nav li.active a {
+.container-narrow #header .navbar .navbar-inner #main-nav li.active a {
   background-color: #ffffff;
   color: #ffffff;
   box-shadow: none;
   border: 13px solid #003366;
   padding: 9px 0px 0px 0px;
 }
-body > header #toolbar + #header {
+.container-narrow #toolbar + #header {
   margin-top: 40px;
+}
+.container-narrow #site-footer {
+  color: #ffffff !important;
+  background: #6ca147 !important;
+  padding: 20px;
+}
+.container-narrow #site-footer .info {
+  margin-bottom: 18px;
+  text-transform: uppercase;
+  font-size: 11.66px;
+  border: 0px solid red;
+}
+.container-narrow #site-footer .signature {
+  text-transform: uppercase;
+  border: 0px solid red;
+}
+.container-narrow #site-footer a {
+  color: #ffffff;
+}
+.container-narrow body > footer {
+  margin-top: 18px;
+  padding: 6px;
+}
+.container-narrow body > footer #footer {
+  padding: 20px 0px 0px 0px;
+  text-shadow: none;
+  border-top: 1px solid #797979;
 }
 #portaltab-kontakt {
   background: none !important;
@@ -5702,7 +5741,6 @@ body > header #toolbar + #header {
   display: none;
 }
 #above-content {
-  width: 960px;
   margin: 0px auto 0px auto;
 }
 #above-content .carousel {
@@ -5741,7 +5779,6 @@ body > header #toolbar + #header {
 }
 #content {
   padding: 0;
-  width: 960px;
   background: #ffffff;
 }
 #content #frontpage-content {
@@ -5889,28 +5926,6 @@ a.link-more:hover {
 #sidebar .box .box-content .box-item:nth-child(odd) {
   background-color: #f9f9f9;
 }
-body > footer {
-  margin-top: 18px;
-  padding: 6px;
-}
-body > footer #footer {
-  padding: 20px 0px 0px 0px;
-  width: 960px;
-  text-shadow: none;
-  border-top: 1px solid #797979;
-}
-body > footer #footer .signature {
-  text-transform: uppercase;
-}
-body > footer #footer .info {
-  margin-bottom: 18px;
-  color: #797979;
-  text-transform: uppercase;
-  font-size: 11.66px;
-}
-body > footer #footer .info a {
-  color: #797979;
-}
 .template-search #search-field,
 .template-search .documentFirstHeading,
 .template-search #rss-subscription,
@@ -5927,20 +5942,16 @@ body > footer #footer .info a {
 .contenttype-project img {
   display: none;
 }
-#category {
-  display: none;
-}
-.badan-keywords {
-  margin-bottom: 20px;
-}
-.section-aktuelles .badan-keywords {
-  display: none;
-}
 dd {
   margin-left: 0px;
 }
-.documentLocation {
-  display: none;
+@media (max-width: 480px) {
+  #above-content {
+    display: none;
+  }
+  .meta {
+    display: none;
+  }
 }
 @media (max-width: 480px) {
   .nav-collapse {
