@@ -32,6 +32,7 @@
             <li tal:replace="structure view/createNavTree">
                 SUBTREE
             </li>
+            <div class="visualClear"></div>
         </ul>
         <span class="portletBottomLeft"></span>
         <span class="portletBottomRight"></span>

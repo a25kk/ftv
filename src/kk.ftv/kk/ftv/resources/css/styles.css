@@ -5876,16 +5876,25 @@ dd {
 }
 .portletNavigationTree ul {
   list-style: none;
+  padding: 10px 0px 10px 0px;
+  border: 0px solid red;
 }
 .portletNavigationTree li {
   float: left;
-  background: white;
-  margin-right: 10px;
+  margin-right: 30px;
+  text-align: center;
+  padding: 0px !important;
 }
 .portletNavigationTree li a {
-  padding: 10px 10px !important;
+  padding: 10px 120px !important;
   text-transform: uppercase;
   font-size: 13px;
+  text-align: center;
+  border: 0px solid red !important;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: white !important;
 }
 .portletNavigationTree .navTreeItem {
   border-bottom: 0px !important;
