@@ -5526,6 +5526,7 @@ table.grid th {
 body {
   background: #efefef;
   color: #797979;
+  font-family: Verdana !important;
 }
 .visualClear {
   clear: both;
@@ -5556,10 +5557,10 @@ hr {
   background: #ffffff;
 }
 .container-narrow .green {
-  background: #6ca147;
+  background: #A6BF79;
 }
 .container-narrow .light {
-  background: #bacca9;
+  background: #c4da60;
 }
 .container-narrow #header {
   background: transparent;
@@ -5574,10 +5575,16 @@ hr {
   margin: 0px;
   border: 0px solid red;
   color: #ffffff;
-  text-transform: uppercase;
   font-size: 32.5px;
   font-weight: normal;
-  padding: 20px !important;
+  padding: 83px 0px 20px 290px !important;
+  background: url(../img/logo.png) no-repeat 20px 10px;
+  font-family: Georgia;
+  font-style: italic;
+  vertical-align: bottom;
+}
+.container-narrow #header .brand .big {
+  font-size: 48.75px;
 }
 .container-narrow #header .meta {
   border: 0px solid blue;
@@ -5619,7 +5626,7 @@ hr {
   color: #ffffff;
   font-weight: normal;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 13px;
   padding: 10px 0px 10px 0px;
   text-shadow: none !important;
 }
@@ -5643,7 +5650,7 @@ hr {
 }
 .container-narrow #site-footer {
   color: #ffffff !important;
-  background: #6ca147 !important;
+  background: #A6BF79 !important;
   padding: 20px;
 }
 .container-narrow #site-footer .info {
