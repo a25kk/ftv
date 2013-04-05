@@ -5533,7 +5533,10 @@ body {
 }
 a {
   outline: none !important;
-  color: #797979;
+  color: #b5c958;
+}
+a:hover {
+  color: #6a772f;
 }
 hr {
   border-top: 1px solid #797979;
@@ -5557,10 +5560,13 @@ hr {
   background: #ffffff;
 }
 .container-narrow .green {
-  background: #A6BF79;
+  background: #a3b54d;
 }
 .container-narrow .light {
   background: #c4da60;
+}
+.container-narrow .dark {
+  color: #899940;
 }
 .container-narrow #header {
   background: transparent;
@@ -5577,8 +5583,8 @@ hr {
   color: #ffffff;
   font-size: 32.5px;
   font-weight: normal;
-  padding: 83px 0px 20px 290px !important;
-  background: url(../img/logo.png) no-repeat 20px 10px;
+  padding: 75px 0px 20px 270px !important;
+  background: url(../img/logo.png) no-repeat 20px 20px;
   font-family: Georgia;
   font-style: italic;
   vertical-align: bottom;
@@ -5650,7 +5656,7 @@ hr {
 }
 .container-narrow #site-footer {
   color: #ffffff !important;
-  background: #A6BF79 !important;
+  background: #a3b54d !important;
   padding: 20px;
 }
 .container-narrow #site-footer .info {
@@ -5764,14 +5770,15 @@ hr {
   margin-top: 0;
 }
 #above-content .carousel-pager {
-  margin: -360px 0px 0px 20px;
+  margin: -350px 0px 0px 20px;
   position: absolute;
 }
 #above-content .carousel-pager .carousel-pager-item,
 #above-content .carousel-pager .carousel-pager-button-prev,
 #above-content .carousel-pager .carousel-pager-button-next {
-  padding: 2px 5px;
-  background: #6CA147;
+  padding: 1px 5px;
+  border-radius: 50% 50% 50% 50%;
+  background: #a3b54d;
   font-size: 10.66px;
 }
 #above-content .carousel-pager .carousel-pager-item a:link,
@@ -5890,6 +5897,13 @@ dl.portletError dd {
   font-size: 13px;
   border-bottom: 1px solid #efefef;
 }
+dl.portlet dt a:link,
+dl.portlet dt a:visited,
+dl.portlet dt a:hover {
+  border: medium none;
+  color: #a3b54d !important;
+  display: block;
+}
 .portletItemDetails {
   display: block;
   font-size: 85%;
@@ -5903,17 +5917,17 @@ dl.portletError dd {
 }
 .portletNavigationTree ul {
   list-style: none;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 0px 0px 0px;
   border: 0px solid red;
 }
 .portletNavigationTree li {
   float: left;
-  margin: 0px 24px 0px 0px;
+  margin: 0px 15px 0px 0px;
   text-align: center !important;
   padding: 0px !important;
 }
 .portletNavigationTree li a:link {
-  padding: 10px 70px !important;
+  padding: 5px 30px !important;
   text-transform: uppercase;
   font-size: 13px;
   text-align: center !important;
@@ -5924,7 +5938,7 @@ dl.portletError dd {
   background: white !important;
 }
 .portletNavigationTree li a:hover {
-  background: #999999 !important;
+  background-color: #a3b54d !important;
   text-decoration: none;
   color: white !important;
 }
@@ -5934,10 +5948,11 @@ dl.portletError dd {
   padding: 0.25em 1em;
 }
 .portletNavigationTree .navTreeCurrentItem {
-  background-color: #DDDDDD;
-  border-left: 1em solid #DDDDDD;
+  background-color: #a3b54d !important;
+  border-left: 0 !important;
   margin-left: 0 !important;
   margin-right: 0 !important;
+  color: white !important;
 }
 .portletNavigationTree .contenttype-folder {
   background: none;
