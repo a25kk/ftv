@@ -5720,6 +5720,32 @@ hr {
   margin-bottom: 18px;
   font-size: 15.049999999999999px;
 }
+#content img.tileImage,
+#content div.newsImageContainer {
+  float: left;
+  margin: 0px 18px 0px 0px;
+}
+.icons-on .contenttype-folder {
+  background: transparent;
+}
+.icons-on .contenttype-document,
+.icons-on .contenttype-event,
+.icons-on .contenttype-folder,
+.icons-on .contenttype-link,
+.icons-on .contenttype-news-item,
+.icons-on .contenttype-plone-site,
+.icons-on .contenttype-collection,
+.icons-on .contenttype-topic,
+.icons-on #plone-contentmenu-factories .contenttype-file,
+.icons-on #plone-contentmenu-factories .contenttype-image {
+  display: inline-block;
+  line-height: 18px;
+  padding-left: 0px !important;
+}
+.tileItem {
+  border-bottom: 1px solid #EFEFEF;
+  padding: 18px 0px;
+}
 #below-content .listingBar .next {
   text-indent: 0px !important;
   display: block;
