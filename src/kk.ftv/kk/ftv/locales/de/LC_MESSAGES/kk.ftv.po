@@ -1,0 +1,23 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kk.ftv\n"
+"POT-Creation-Date: 2013-04-10 10:21+0000\n"
+"PO-Revision-Date: 2013-04-10 12:58+0100\n"
+"Last-Translator: Serge Davidov <sd@kreativkombinat.de>\n"
+"Language-Team: KK Language Team <info@kreativkombinat.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: de\n"
+"Language-Name: German\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: kk.ftv\n"
+"POT-Revision-Date: \n"
+"Language: de_DE\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ./../resources/overrides/plone.app.portlets.portlets.news.pt:11
+msgid "News"
+msgstr "Aktuelles"
+
