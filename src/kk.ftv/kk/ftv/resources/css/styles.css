@@ -5550,7 +5550,7 @@ hr {
   text-shadow: none;
 }
 .selected a {
-  font-size: 24px !important;
+  color: black !important;
 }
 /* Custom container */
 .container-narrow {
@@ -5630,7 +5630,7 @@ hr {
 }
 .container-narrow #header .navbar .navbar-inner #main-nav li a {
   color: #ffffff;
-  font-weight: normal;
+  font-weight: bold;
   text-transform: uppercase;
   font-size: 13px;
   padding: 10px 0px 10px 0px;
@@ -5638,6 +5638,7 @@ hr {
 }
 .container-narrow #header .navbar .navbar-inner #main-nav li a:hover {
   background: url(../img/active.gif) no-repeat center bottom;
+  color: black !important;
 }
 .container-narrow #header .navbar .navbar-inner #main-nav li.active {
   background-color: #ffffff;
@@ -5646,7 +5647,7 @@ hr {
 }
 .container-narrow #header .navbar .navbar-inner #main-nav li.active a {
   background-color: #ffffff;
-  color: #ffffff;
+  color: #899940 !important;
   box-shadow: none;
   border: 13px solid #003366;
   padding: 9px 0px 0px 0px;
