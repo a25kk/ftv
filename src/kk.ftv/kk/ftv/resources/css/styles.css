@@ -5968,12 +5968,13 @@ dl.portlet dt a:hover {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  background: white !important;
+  background: #a3b54d !important;
+  color: white !important;
 }
 .portletNavigationTree li a:hover {
-  background-color: #a3b54d !important;
+  background: white !important;
   text-decoration: none;
-  color: white !important;
+  color: #899940 !important;
 }
 .portletNavigationTree li span {
   padding: 15px 30px 15px 30px !important;
@@ -5986,11 +5987,11 @@ dl.portlet dt a:hover {
   padding: 0.25em 1em;
 }
 .portletNavigationTree .navTreeCurrentItem {
-  background-color: #a3b54d !important;
+  background-color: white !important;
   border-left: 0 !important;
   margin-left: 0 !important;
   margin-right: 0 !important;
-  color: white !important;
+  color: #899940 !important;
 }
 .portletNavigationTree .contenttype-folder {
   background: none;
