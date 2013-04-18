@@ -5538,6 +5538,15 @@ a {
 a:hover {
   color: #6a772f;
 }
+h2,
+h3 {
+  margin-bottom: 18px;
+}
+#content .field input[type="text"][name$=".title"],
+#archetypes-fieldname-title input {
+  font-size: 1.5em;
+  line-height: 125%;
+}
 hr {
   border-top: 1px solid #797979;
   height: 10px;
@@ -5720,6 +5729,7 @@ hr {
   font-weight: bold;
   margin-bottom: 18px;
   font-size: 15.049999999999999px;
+  line-height: 22px;
 }
 #content img.tileImage,
 #content div.newsImageContainer {
@@ -5790,6 +5800,9 @@ hr {
 }
 #portal-breadcrumbs {
   display: none;
+}
+#above-content .portalMessage {
+  display: none !important;
 }
 #above-content {
   margin: 0px auto 0px auto;
