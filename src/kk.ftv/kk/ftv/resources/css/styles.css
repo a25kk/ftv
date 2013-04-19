@@ -5528,6 +5528,9 @@ body {
   color: #797979;
   font-family: Verdana !important;
 }
+body.forceColors {
+  overflow: visible !important;
+}
 .visualClear {
   clear: both;
 }
