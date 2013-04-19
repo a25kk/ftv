@@ -5699,6 +5699,10 @@ hr {
 }
 .container-narrow #toolbar + #header {
   margin-top: 50px;
+  font-size: 10.5px !important;
+}
+.container-narrow #toolbar {
+  font-size: 10.5px !important;
 }
 .container-narrow #site-footer {
   color: white !important;
@@ -5714,6 +5718,7 @@ hr {
 .container-narrow #site-footer .signature {
   text-transform: uppercase;
   border: 0px solid red;
+  font-size: 11.5px;
 }
 .container-narrow #site-footer a {
   color: white;
