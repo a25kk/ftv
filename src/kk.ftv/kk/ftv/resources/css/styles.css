@@ -5573,6 +5573,18 @@ a:hover {
 h2,
 h3 {
   margin-bottom: 20px;
+  font-weight: bold;
+  color: #797979;
+}
+h2 {
+  font-size: 1.8em;
+}
+h3 {
+  font-size: 1.5em;
+}
+.grey .col-span-9 {
+  min-height: 68px;
+  border-left: 6px solid white;
 }
 #content .field input[type="text"][name$=".title"],
 #archetypes-fieldname-title input {
@@ -5616,6 +5628,13 @@ hr {
 .container-narrow .dark {
   color: #899940;
 }
+.container-narrow .white {
+  background: #ffffff;
+}
+.container-narrow .grey {
+  background: #daddd9 !important;
+  border: 0px solid red;
+}
 .container-narrow #header {
   background: transparent;
   width: 960px;
@@ -5627,15 +5646,14 @@ hr {
 .container-narrow #header .brand {
   display: block;
   margin: 0px;
-  border: 0px solid red;
-  color: white;
-  font-size: 35px;
+  color: #a3b54d;
+  font-size: 14px;
   font-weight: normal;
-  padding: 75px 0px 20px 270px !important;
-  background: url(../img/logo.png) no-repeat 20px 20px;
-  font-family: Georgia;
-  font-style: italic;
+  padding: 10px 0px 10px 20px !important;
+  line-height: 24px;
   vertical-align: bottom;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .container-narrow #header .brand .big {
   font-size: 52.5px;
@@ -6024,7 +6042,7 @@ dl.portlet dt a:hover {
 .portletNavigationTree li a {
   padding: 0px !important;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 11px;
   text-align: center !important;
   border: 0px solid red !important;
   -webkit-border-radius: 3px;
@@ -6039,9 +6057,9 @@ dl.portlet dt a:hover {
   color: #899940 !important;
 }
 .portletNavigationTree li span {
-  padding: 15px 30px 15px 30px !important;
+  padding: 10px 30px 10px 30px !important;
   text-align: center !important;
-  line-height: 3em;
+  line-height: 2.5em;
 }
 .portletNavigationTree .navTreeItem {
   border-bottom: 0px !important;
