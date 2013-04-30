@@ -5635,6 +5635,15 @@ hr {
   background: #daddd9 !important;
   border: 0px solid red;
 }
+.container-narrow .claim {
+  color: #899940;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 34px 0 0 20px;
+  border: 0px solid red;
+  display: inline-block;
+}
 .container-narrow #header {
   background: transparent;
   width: 960px;
