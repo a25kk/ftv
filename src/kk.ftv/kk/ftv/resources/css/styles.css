@@ -6085,3 +6085,63 @@ dl.portlet dt a:hover {
 .portletNavigationTree .contenttype-folder {
   background: none;
 }
+#sidebar-right .portletNavigationTree {
+  border: 0px solid red;
+  clear: both;
+  width: 100%;
+}
+#sidebar-right .portletNavigationTree .portletHeader {
+  display: none;
+}
+#sidebar-right .portletNavigationTree ul {
+  list-style: none;
+  padding: 0px 0px 0px 0px !important;
+  border: 0px solid red;
+  padding: 10px !important;
+  margin: 0px !important;
+  text-align: left !important;
+}
+#sidebar-right .portletNavigationTree li {
+  float: left;
+  margin: 0px 0px 0px 0px;
+  text-align: left !important;
+  padding: 0px !important;
+  width: 100%;
+}
+#sidebar-right .portletNavigationTree li a {
+  padding: 0px !important;
+  text-transform: uppercase;
+  font-size: 11px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #a3b54d !important;
+  color: white !important;
+  width: 100%;
+  text-align: left !important;
+}
+#sidebar-right .portletNavigationTree li a:hover {
+  background: white !important;
+  text-decoration: none;
+  color: #899940 !important;
+}
+#sidebar-right .portletNavigationTree li span {
+  padding: 10px 0px 10px 10px !important;
+  text-align: left !important;
+  line-height: 2.5em;
+}
+#sidebar-right .portletNavigationTree .navTreeItem {
+  border-bottom: 0px !important;
+  line-height: 2em;
+  padding: 0.25em 1em;
+}
+#sidebar-right .portletNavigationTree .navTreeCurrentItem {
+  background-color: white !important;
+  border-left: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  color: #899940 !important;
+}
+#sidebar-right .portletNavigationTree .contenttype-folder {
+  background: none;
+}
