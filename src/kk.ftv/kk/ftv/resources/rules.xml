@@ -61,6 +61,8 @@
         <!-- Site actions -->
         <!--<replace css:content="#portal-siteactions li" css:theme-children="#global-nav" />-->
 
+        <replace css:content="#portal-languageselector li" css:theme-children="#language" />
+
         <!-- Portal searchbox -->
         <!--<copy attributes="action" css:content="#portal-searchbox form"
             css:theme="#portal-searchbox" />-->

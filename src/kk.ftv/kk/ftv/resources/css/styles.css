@@ -5644,6 +5644,18 @@ hr {
   border: 0px solid red;
   display: inline-block;
 }
+.container-narrow #language {
+  margin: 25px 0 0;
+  border: 0px solid red;
+  text-align: left;
+  font-size: 12.9px;
+  padding: 10px 0px 0px 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.container-narrow #language li {
+  display: inline !important;
+}
 .container-narrow #header {
   background: transparent;
   width: 960px;
