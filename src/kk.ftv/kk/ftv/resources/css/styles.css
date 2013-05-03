@@ -5820,44 +5820,6 @@ hr {
   border-bottom: 1px solid #EFEFEF;
   padding: 20px 0px;
 }
-#below-content .listingBar .next {
-  text-indent: 0px !important;
-  display: block;
-  margin: 0px;
-  position: relative;
-  float: right;
-  padding: 0px 0px 0px 0px;
-  display: none;
-}
-#below-content .listingBar .prev {
-  text-indent: 0px !important;
-  display: block;
-  padding: 0px 0px 0px 0px;
-  display: none;
-}
-.listingBar {
-  display: none;
-}
-.next {
-  background: url(../img/arrow-right.png) no-repeat center center;
-  padding: 0px;
-  text-indent: -9999999px;
-  margin: -260px 0px 0px 0px;
-  border: 0px solid #efefef;
-  width: 50px;
-  height: 520px;
-  border-radius: 5px;
-}
-.prev {
-  background: url(../img/arrow-left.png) no-repeat center center;
-  padding: 0px;
-  text-indent: -9999999px;
-  margin: -260px 0px 0px 0px;
-  border: 0px solid #efefef;
-  width: 50px;
-  height: 520px;
-  border-radius: 5px;
-}
 .carousel-info {
   float: right;
 }
@@ -5915,43 +5877,24 @@ hr {
   background: url(../img/transparent.png) repeat 0px 0px transparent !important;
   padding: 20px;
 }
-.jCarouselLite {
-  margin-bottom: 20px;
-}
-.section-aktuelles .jCarouselLite {
-  margin-top: 15px;
+#breadcrumbs {
+  margin: 20px 30px;
+  font-size: 11.9px;
 }
 #content {
   padding: 20px;
   background: white;
 }
-#content #frontpage-content {
-  padding: 0;
+table.listing {
+  border: 1px solid #cccccc;
+}
+table.listing td {
+  border: 1px solid #cccccc;
 }
 #below-content {
   border: 0px solid red;
   width: 960px;
   margin: 0px auto;
-}
-.projects h2 {
-  border-bottom: 1px solid black;
-  color: black;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-weight: normal;
-  text-transform: uppercase;
-}
-.projects h3 {
-  text-transform: uppercase;
-}
-.projects li img {
-  padding-top: 9px;
-}
-.project-header {
-  border-bottom: 1px solid black;
-  color: black;
-  margin-bottom: 20px;
-  text-transform: uppercase;
 }
 .documentFirstHeading {
   color: #797979;
