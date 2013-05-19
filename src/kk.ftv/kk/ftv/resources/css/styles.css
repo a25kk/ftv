@@ -5690,6 +5690,13 @@ dl.portlet dt a:hover {
   margin-right: 0 !important;
   color: #899940 !important;
 }
+.portletNavigationTree .navTreeItemInPath {
+  background-color: white !important;
+  color: #899940 !important;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
 .portletNavigationTree .contenttype-folder {
   background: none;
 }
