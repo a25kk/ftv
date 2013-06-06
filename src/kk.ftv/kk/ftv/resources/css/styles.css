@@ -260,12 +260,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #b5c958;
+  color: #669900;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #8da134;
+  color: #334d00;
   text-decoration: underline;
 }
 a:focus {
@@ -1839,14 +1839,14 @@ fieldset[disabled] .btn-link {
   border-color: transparent;
 }
 .btn-link {
-  color: #b5c958;
+  color: #669900;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0;
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #8da134;
+  color: #334d00;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4086,7 +4086,7 @@ button.close {
 }
 a.thumbnail:hover,
 a.thumbnail:focus {
-  border-color: #b5c958;
+  border-color: #669900;
 }
 .thumbnail > img {
   display: block;
@@ -4200,7 +4200,7 @@ a.badge:focus {
 }
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #b5c958;
+  color: #669900;
   background-color: #fff;
 }
 .nav-pills > li > a > .badge {
@@ -4727,13 +4727,13 @@ dd.image-caption {
 #category a.link-category,
 #category span.selectedTag {
   padding: 0.25em 0.5em;
-  background: #b5c958;
+  background: #669900;
   color: #fff;
   border-radius: 0.5em;
   border-radius: 4px;
 }
 #category a.link-category:hover {
-  background: #8da134;
+  background: #334d00;
 }
 #category .separator {
   display: none;
@@ -5569,7 +5569,7 @@ dl.portlet dt a:link,
 dl.portlet dt a:visited,
 dl.portlet dt a:hover {
   border: medium none;
-  color: #a3b54d !important;
+  color: #669900 !important;
   display: block;
 }
 .portletNavigationTree .portletItem {
@@ -5605,13 +5605,13 @@ dl.portlet dt a:hover {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  background: #a3b54d !important;
+  background: #669900 !important;
   color: white !important;
 }
 .portletNavigationTree li a:hover {
   background: white !important;
   text-decoration: none;
-  color: #899940 !important;
+  color: #334d00 !important;
 }
 .portletNavigationTree li span {
   padding: 10px 30px 10px 30px !important;
@@ -5628,11 +5628,11 @@ dl.portlet dt a:hover {
   border-left: 0 !important;
   margin-left: 0 !important;
   margin-right: 0 !important;
-  color: #899940 !important;
+  color: #669900 !important;
 }
 .portletNavigationTree .navTreeItemInPath {
   background-color: white !important;
-  color: #899940 !important;
+  color: #669900 !important;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -5676,14 +5676,14 @@ dl.portlet dt a:hover {
   text-transform: none;
   font-size: 14px;
   background: transparent !important;
-  color: #b5c958 !important;
+  color: #669900 !important;
   width: 100%;
   text-align: left !important;
   font-weight: bold;
 }
 #sidebar-right .portletNavigationTree li a:hover {
   text-decoration: none;
-  color: #899940 !important;
+  color: #334d00 !important;
 }
 #sidebar-right .portletNavigationTree li span {
   padding: 10px 0px 10px 0px !important;
@@ -5700,7 +5700,7 @@ dl.portlet dt a:hover {
   border-left: 0 !important;
   margin-left: 0 !important;
   margin-right: 0 !important;
-  color: #899940 !important;
+  color: #669900 !important;
 }
 #sidebar-right .portletNavigationTree .contenttype-folder {
   background: none;
@@ -5718,7 +5718,7 @@ body.forceColors {
 }
 a {
   outline: none !important;
-  color: #b5c958;
+  color: #669900;
 }
 a:hover {
   color: #6a772f;
@@ -5802,13 +5802,13 @@ hr {
   background: white;
 }
 .container-narrow .green {
-  background: #a3b54d;
+  background: #669900;
 }
 .container-narrow .light {
-  background: #c4da60;
+  background: #99cc00;
 }
 .container-narrow .dark {
-  color: #899940;
+  color: #669900;
 }
 .container-narrow .white {
   background: #ffffff;
@@ -5818,7 +5818,7 @@ hr {
   border: 0px solid red;
 }
 .container-narrow .claim {
-  color: #899940;
+  color: #669900;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
@@ -5849,7 +5849,7 @@ hr {
 .container-narrow #header .brand {
   display: block;
   margin: 0px;
-  color: #a3b54d;
+  color: #99cc00;
   font-size: 14px;
   font-weight: normal;
   padding: 10px 0px 10px 20px !important;
@@ -5914,7 +5914,7 @@ hr {
 }
 .container-narrow #header .navbar .navbar-inner #main-nav li.active a {
   background-color: white;
-  color: #899940 !important;
+  color: #99cc00 !important;
   box-shadow: none;
   padding: 9px 0px 0px 0px;
 }
@@ -5927,7 +5927,7 @@ hr {
 }
 .container-narrow #site-footer {
   color: white !important;
-  background: #a3b54d !important;
+  background: #669900 !important;
   padding: 20px;
 }
 .container-narrow #site-footer .info {
@@ -6042,7 +6042,7 @@ hr {
 #above-content .carousel-pager .carousel-pager-button-next {
   padding: 1px 5px;
   border-radius: 50% 50% 50% 50%;
-  background: #a3b54d;
+  background: #669900;
   font-size: 10.5px;
 }
 #above-content .carousel-pager .carousel-pager-item a:link,
