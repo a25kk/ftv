@@ -6037,6 +6037,9 @@ hr {
   margin: -350px 0px 0px 20px;
   position: absolute;
 }
+#above-content .carousel-pager .carousel-pager-item-active {
+  color: white !important;
+}
 #above-content .carousel-pager .carousel-pager-item,
 #above-content .carousel-pager .carousel-pager-button-prev,
 #above-content .carousel-pager .carousel-pager-button-next {
@@ -6044,11 +6047,7 @@ hr {
   border-radius: 50% 50% 50% 50%;
   background: #669900;
   font-size: 10.5px;
-}
-#above-content .carousel-pager .carousel-pager-item a:link,
-#above-content .carousel-pager .carousel-pager-button-prev a:link,
-#above-content .carousel-pager .carousel-pager-button-next a:link {
-  color: black;
+  color: #99cc00;
 }
 #above-content .carousel-text {
   background: transparent;
