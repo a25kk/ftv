@@ -5757,6 +5757,9 @@ h3 {
 #sub {
   width: 960px !important;
 }
+.section-team #sub {
+  display: none;
+}
 .row td {
   vertical-align: top !important;
 }
