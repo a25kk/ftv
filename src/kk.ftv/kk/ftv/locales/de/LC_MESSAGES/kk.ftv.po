@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kk.ftv\n"
-"POT-Creation-Date: 2013-04-10 10:21+0000\n"
-"PO-Revision-Date: 2013-04-10 12:58+0100\n"
+"POT-Creation-Date: 2013-09-18 11:27+0000\n"
+"PO-Revision-Date: 2013-09-18 13:26+0100\n"
 "Last-Translator: Serge Davidov <sd@kreativkombinat.de>\n"
 "Language-Team: KK Language Team <info@kreativkombinat.de>\n"
 "MIME-Version: 1.0\n"
@@ -20,4 +20,9 @@ msgstr ""
 #: ./../resources/overrides/plone.app.portlets.portlets.news.pt:11
 msgid "News"
 msgstr "Aktuelles"
+
+#. Default: "Upcoming Events"
+#: ./../resources/overrides/plone.app.portlets.portlets.events.pt:11
+msgid "box_events"
+msgstr "Bevorstehende Termine"
 

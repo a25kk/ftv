@@ -5575,9 +5575,6 @@ dl.portlet dt a:hover {
 .portletNavigationTree .portletItem {
   padding: 0px !important;
 }
-.portletItemDetails {
-  display: none;
-}
 .portletNavigationTree {
   border: 0px solid red;
   clear: both;
