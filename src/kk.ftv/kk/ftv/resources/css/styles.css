@@ -5776,6 +5776,15 @@ h3 {
 .section-public-workshops #edit-bar {
   width: 920px;
 }
+.section-events .right {
+  display: none;
+}
+.section-events #content {
+  width: 959px;
+}
+.section-events #edit-bar {
+  width: 920px;
+}
 .col-1 {
   width: 246px !important;
   border: 0px solid green;
