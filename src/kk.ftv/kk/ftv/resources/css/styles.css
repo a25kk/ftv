@@ -5735,6 +5735,42 @@ h2 {
 h3 {
   font-size: 1.5em;
 }
+.section-oeffentliche-workshops .right {
+  display: none;
+}
+.section-oeffentliche-workshops #content {
+  width: 959px;
+}
+.section-oeffentliche-workshops #edit-bar {
+  width: 920px;
+}
+.section-fortbildungen .right {
+  display: none;
+}
+.section-fortbildungen #content {
+  width: 959px;
+}
+.section-fortbildungen #edit-bar {
+  width: 920px;
+}
+.section-advanced-trainings .right {
+  display: none;
+}
+.section-advanced-trainings #content {
+  width: 959px;
+}
+.section-advanced-trainings #edit-bar {
+  width: 920px;
+}
+.section-public-workshops .right {
+  display: none;
+}
+.section-public-workshops #content {
+  width: 959px;
+}
+.section-public-workshops #edit-bar {
+  width: 920px;
+}
 .col-1 {
   width: 246px !important;
   border: 0px solid green;
@@ -5778,6 +5814,7 @@ h3 {
 #edit-bar {
   display: inline-block;
   padding: 10px;
+  margin: 20px;
   width: 100%;
   background: #999;
   font-size: 11.9px;
@@ -6096,6 +6133,9 @@ table.listing {
   border: 1px solid #cccccc;
 }
 table.listing td {
+  border: 1px solid #cccccc;
+}
+table.listing th {
   border: 1px solid #cccccc;
 }
 #below-content {
