@@ -5571,9 +5571,17 @@ dl.portlet dt a:hover {
   border: medium none;
   color: #669900 !important;
   display: block;
+  font-size: 21px !important;
 }
 .portletNavigationTree .portletItem {
   padding: 0px !important;
+}
+.portletItemDetails {
+  display: block;
+}
+.portletItemDetails span {
+  display: block;
+  font-size: 11.666666666666668px;
 }
 .portletNavigationTree {
   border: 0px solid red;
@@ -5812,7 +5820,7 @@ h3 {
   display: inline-block;
   padding: 10px;
   margin: 20px;
-  width: 100%;
+  width: 95%;
   background: #999;
   font-size: 11.9px;
 }
